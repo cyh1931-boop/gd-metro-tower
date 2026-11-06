@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GD 메트로타워 | 분양 상담</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: #101b29;
+      color: #fff;
+      font-family: Arial, "Malgun Gothic", sans-serif;
+    }
+    header, main, footer {
+      max-width: 1100px;
+      margin: auto;
+      padding: 24px;
+    }
+    header { font-size: 22px; font-weight: bold; }
+    video {
+      width: 100%;
+      display: block;
+      background: #000;
+      border-radius: 12px;
+    }
+    h1 { font-size: clamp(28px, 5vw, 48px); }
+    p { color: #d3dce6; line-height: 1.7; }
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin: 24px 0;
+    }
+    .actions a {
+      flex: 1;
+      min-width: 220px;
+      padding: 18px;
+      border-radius: 8px;
+      background: #fff;
+      color: #142236;
+      text-align: center;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .actions .kakao { background: #fee500; }
+    footer { color: #aab8c8; font-size: 14px; }
+  </style>
+</head>
+<body>
+  <header>GD 메트로타워</header>
+  <main>
+    <video controls autoplay muted playsinline preload="metadata">
+      <source src="./intro.mp4" type="video/mp4">
+      영상 재생을 지원하는 브라우저에서 확인해 주세요.
+    </video>
+
+    <h1>GD 메트로타워<br>오피스텔 분양 안내</h1>
+    <p>분양 상담 및 방문 안내</p>
+
+    <div class="actions">
+      <a href="tel:15441987">전화 상담 1544-1987</a>
+      <a class="kakao"
+         href="https://open.kakao.com/o/spKjChQi"
+         target="_blank"
+         rel="noopener noreferrer">카카오톡 상담</a>
+    </div>
+
+    <p>제작 중인 초안입니다. 영상 및 상담 연결 확인용입니다.</p>
+  </main>
+  <footer>GD 메트로타워 분양 상담 안내 · 1544-1987</footer>
+</body>
+</html>
